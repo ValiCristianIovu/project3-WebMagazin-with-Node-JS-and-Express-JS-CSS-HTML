@@ -87,7 +87,7 @@ app.get('/remove/:id', function(req, res, next) {
   res.redirect('/cos_cumparaturi');
 });
 
-app.listen(port, () => console.log(`Serverul rulează la adresa http://localhost:`,port ));
+app.listen(port, () => console.log(`Serverul rulează la adresa http://localhost:`,port));
 /*
 // catch 404 and forward to error handler
 /*
