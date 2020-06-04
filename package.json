@@ -1,0 +1,30 @@
+{
+  "name": "project3-webmagazin-with-node-js-and-express-js-css-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValiCristianIovu/project3-WebMagazin-with-Node-JS-and-Express-JS-CSS-HTML.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValiCristianIovu/project3-WebMagazin-with-Node-JS-and-Express-JS-CSS-HTML/issues"
+  },
+  "homepage": "https://github.com/ValiCristianIovu/project3-WebMagazin-with-Node-JS-and-Express-JS-CSS-HTML#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "fs": "0.0.1-security",
+    "morgan": "^1.10.0",
+    "serve-favicon": "^2.5.0"
+  }
+}
