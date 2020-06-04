@@ -13,7 +13,7 @@ const session = require('express-session');
 //const index = require('./resurse/index');
 
 const app = express();
-const port = 6789;
+const port = 6790;
 
 
 // // directorul 'views' va conține fișierele .ejs (html + js executat la server)
@@ -37,8 +37,8 @@ app.set('views', path.join(__dirname, 'public'));
 
 app.get('/', (req, res) => res.send('Hello World'));
 //app.use('/', index);
-var Cart = require('../project/cos_cumparaturi/cart');
-var products = JSON.parse(fs.readFileSync('./produse/products.json', 'utf8'));
+var Cart = require('./javascript/cos_cumparaturi');
+var products = JSON.parse(fs.readFileSync('./json/produse.json', 'utf8'));
 
 app.get('/index', (req, res) => {
   
@@ -87,7 +87,7 @@ app.get('/remove/:id', function(req, res, next) {
   res.redirect('/cos_cumparaturi');
 });
 
-app.listen(port, () => console.log(`Serverul rulează la adresa http://localhost:`));
+app.listen(port, () => console.log(`Serverul rulează la adresa http://localhost:`,port ));
 /*
 // catch 404 and forward to error handler
 /*

@@ -1,0 +1,38 @@
+<form action="/contact" method="GET">
+    
+    <h2>Contact <%= title %></h2>
+    <div class="container">
+            <div style="text-align:center">
+                  <strong>Ne poti vizita pe Strada Atanasie Demostene, nr. 29 (langa palatul Cotroceni), ori ne poti lasa un mesaj:</strong>
+            </div>
+        <div class="row">
+
+            <div class="column">
+                 <img src="imagini/5.PNG" style="width: 100%">
+            </div>
+
+          <div class="column">
+            <form action="/contact">
+              <label for="fname">Nume</label>
+              <input type="text" id="fname" name="firstname" placeholder="Numele tau..">
+              <label for="lname">Prenume</label>
+              <input type="text" id="lname" name="lastname" placeholder="Prenumele tau..">
+              <label for="judet">Judet</label>
+              <select id="judet" name="judet">
+                <option value="iasi">Iasi</option>
+                <option value="botosani">Botosani</option>
+                <option value="bacau">Bacau</option>
+                <option value="vaslui">Vaslui</option>
+                <option value="galati">Galati</option>
+                <option value="constanta">Constanta</option>
+              </select>
+              <label for="subject">Subiect</label>
+              <textarea id="subject" name="subject" placeholder="Lasa ne un mesaj.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+
+          </div>
+        </div>
+      </div>
+    
+</form>

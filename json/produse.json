@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "title": "Baton proteic cu ciocolată și nuci",
+      "description": "Ingredientul nostru secret - proteina de greiere - ambalează un pumn de energie în plus, eliminând în același timp nevoia de zahăr, substanțe chimice sau conservanți. ",
+      "price": 7,
+      "logolocation":"imagini/1.png"
+    },
+    {
+      "id": 2,
+      "title": "EnergyBar cu alune",
+      "description": "Batoanele proteice de pulbere din greiere ProPro sunt făcute cu toate ingredientele naturale fără adaos de zahăr, siropuri sau îndulcitori.",
+      "price": 6,
+      "logolocation":"imagini/2.png"
+    },
+    {
+      "id": 3,
+      "title": "Greieri prăjiți ",
+      "description": "Greierii prăjiți oferă o aromă grozavă. Folosiți-le în orice fel de mâncare pentru un impuls sănătos și o textură crocantă.",
+      "price": 12,
+      "logolocation":"imagini/3.png"
+    },
+    {
+      "id": 4,
+      "title": "Baton Proteic Sens",
+      "description": "Insectele comestibile sunt sustenabile.Pot fi cultivate aproape oriunde în lume de către fermieri sau grupuri comerciale.",
+      "price": 8,
+      "logolocation":"imagini/4.png"
+    }
+  ]
+  
